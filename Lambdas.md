@@ -20,3 +20,19 @@ You should be aware of boxing and unboxing, when it comes to java programming. T
 
 ![image-20190620171555483](./figures/common_functional_interface.png)
 
+## Exceptions
+
+You may throw execptions in side the lambda function, or you can have your own functional interface, and try to catch it with the thrower.
+
+## Type Checking
+
+`(Apple apple) -> apple.getWeight() > 150`
+
+![image-20190620173947610](/Users/daniowang/OneDrive/GitHub/Notes-on-Modern-Java/figures/special-void-compatibility-rule.png)
+
+## Closure and using local variables
+
+## Constructor Reference
+
+![image-20190620224154644](./figures/method reference.png)
+
