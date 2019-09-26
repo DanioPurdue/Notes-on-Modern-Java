@@ -119,7 +119,6 @@ public class Fruit {
             addFruit(fruit_list, new Orange("orange", rand_int, rand_int, rand_int));
         }
         printFruitList(fruit_list);
-
         // keep the fruit with weight above 20
         Predicate<Fruit> weight_filter = (Fruit f) -> f.getWeight() > 20;
         List<Fruit> heavy_fruits = filter(fruit_list, weight_filter);
